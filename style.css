@@ -3,6 +3,9 @@ html, body {
     margin: 0;
   }
   
+  body{
+    background-color: pink;
+  }
   .hide-me {
     visibility: hidden;
     opacity: 0;
@@ -22,7 +25,7 @@ html, body {
   }
   
   button {
-    background-color: #046380;
+    background-color: hotpink;
     color: #FFF;
     border: none;
     padding: 10px 15px;
@@ -30,7 +33,7 @@ html, body {
     border-radius: 4px;
     cursor: pointer;
     outline: none;
-    box-shadow: 2px 2px 0 #034154;
+    box-shadow: 2px 2px 0 #1d1e1e;
     margin-bottom: 10px;
     margin-left: 18px;
     transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
@@ -39,11 +42,11 @@ html, body {
   }
   
   button:hover {
-    background-color: #034F66;
+    background-color: rgb(247, 63, 155);
   }
   
   button:active {
-    background-color: #034154;
+    background-color: rgb(247, 63, 155);
     box-shadow: none;
     position: relative;
     top: -8px;
